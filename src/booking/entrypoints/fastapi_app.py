@@ -5,7 +5,7 @@ from datetime import datetime
 from src.booking.application.commands import CreateReservation
 from src.booking.application.handlers import CreateReservationHandler
 from src.booking.domain.services import TableAllocationService
-from src.booking.infrastructure.tables import get_available_tables
+from src.booking.infrastructure.available_tables import get_available_tables
 
 
 # Глобальная зависимость
